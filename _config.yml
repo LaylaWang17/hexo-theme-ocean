@@ -1,23 +1,21 @@
 # Menu
 menu:
-  Home: /
-  Archives: /archives
-  Gallery: /gallery
-  About: /about
-  Links: /links
+  首页: /
+  归档: /archives
+  标签: /tags
+  关于: /about
 rss: /atom.xml
 
-
 # Miscellaneous
-favicon: /favicon.ico
-brand: /images/hexo.svg
+favicon: /rose.ico
+brand: /images/rose-circle-cropped.png
 
 # Ocean Video
 # Because I put videos in multiple formats on the same path, I just labeled the path here.
 ocean:
   overlay: true
   path: /images/ocean/
-  brand: /images/hexo-inverted.svg
+  brand: /images/rose-circle-cropped.png
 
 # Content
 excerpt_link: Read More...
@@ -44,10 +42,10 @@ gitalk:
 valine:
   enable: false # true
   el: 'vcomments'
-  appId: 
-  appKey: 
+  appId:
+  appKey:
   notify: false
   verify: true
   avatar: 'mp'
   pageSize: '10'
-  placeholder: '请输入...' 
+  placeholder: '请输入...'
